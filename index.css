@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 600px){
+
+
+    .main .restarent-name p{
+        font-size: 80px;
+    }
+    #breakfastbody{
+        width: 91%;
+        height: 2802px;
+        
+    }
+    #containerschilds{
+        background-color: rgba(218, 13, 13, 0.304);
+        height: 1020px;
+        margin-bottom: 10px;
+    }
+    #containers{
+        margin-top: 470px;
+        /* margin-bottom: 50px; */
+    }
+
+    #containers-classic{
+        margin-top: 820px;
+
+    }
+    #containers-classic .containerchilds{
+        background-color: red;
+        height: 1000px;
+    }
+
+    #container-hot{
+        
+        margin-top: 840px;
+    }
+
+    #container-hot .containerchilds{
+        background-color: red;
+        height: 1000px;
+    }
+
+
+    header nav .div2{
+        display: none;
+        /* display: inline-block;
+        flex-wrap: wrap;
+        background-color: #fffefe;
+        position: absolute;
+        top: 74px;
+        width: 100%; */
+
+    }
+
+    /* .list-togle{
+        color: black;
+    } */
+    header nav .div2 .navlist{
+        align-items: center;
+        padding: 0.5rem;
+    }
+    header nav .div1{
+        margin-right: 45px;
+    }
+    header nav .div3{
+        width: 280px;
+        margin-right: 5px;
+    }
+    footer{
+        height: 800px;
+    }
+    footer .footerlist{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    footer .footerlist .detais{
+        margin-left: 5px;
+        
+
+    }
+    footer .footerlist .detais .detailschild1{
+        width: 110%;
+        height: 450px;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        
+
+    }
+    #cart_title{
+        width: 270px;
+        margin-right: 20px;
+    }
+    #cart_list1{
+        
+        height: 300px;
+        width: 270px;
+        margin-right: 20px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* #cart_list1 .cart_list_imgs{
+        width: 230px;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .cart_list_imgs img{
+        width: 100%;
+    } */
+
+    #cart_list1 .cart_list_details{
+        font-size: 20px;
+        
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    #cart_item_price{
+        position: relative;
+        bottom: 60px;
+        background-color: transparent;
+        width: 100px;
+        left: 159px;
+
+    }
+
+    #cart_list2{
+        height: 300px;
+        width: 270px;
+        margin-right: 20px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cart_list2 .cart_list_details{
+        font-size: 20px;
+        
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    #cart_item_price2{
+        position: relative;
+        bottom: 60px;
+        background-color: transparent;
+        width: 100px;
+        left: 159px;
+
+    }
+
+    #cart_list3{
+        height: 300px;
+        width: 270px;
+        margin-right: 20px; 
+        display: flex;
+        flex-direction: column;
+    }
+    #cart_list3 .cart_list_details{
+        font-size: 20px;
+        
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    #cart_item_price3{
+        position: relative;
+        bottom: 60px;
+        background-color: transparent;
+        width: 100px;
+        left: 159px;
+
+    }
+    #total{
+        width: 270px;
+        margin-right: 20px;
+    }
+
+    #total #buttonone{
+        font-size: 20px;
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    #total #buttontwo{
+        width: 189px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    #total button{
+        width: 100px;
+        font-size: 20px;
+    }
+}
+
+body{
+    background-color: rgba(225, 228, 228, 0.648);
+}
+
+#nav{
+    width: 100%;
+    background-color: #ffffff;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    /* border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px; */
+    
+    
+}
+
+.div1{
+    width: 10%;
+}
+
+.div1 img{
+    width: 60px;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.div2{
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .div4 .list-togle{
+    color: transparent;
+} */
+
+
+#navbaritems{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navlist img{
+    width: 40px;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#cart span{
+    padding-left: 10px;
+}
+
+
+.div3{
+    background-color: rgb(193, 193, 193);
+    width: 30%;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div3 input{
+    border: none;
+    background-color: transparent;
+    height: 60px;
+    width: 80%;
+    margin-left: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div3 img{
+    width: 30px;
+    margin-right: 15px;
+
+}
+
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.list-togle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+/* main */
+
+.main{
+    width: 100%;
+    height: 89.9vh;
+    background-image: url("food background img.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restarent-name{
+    margin-bottom: 100px;
+    
+
+}
+
+.restarent-name p{
+    font-size: 100px;
+    color: #060045;
+}
+
+.main-div{
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    
+}
+
+
+.main-div input{
+    font-size: 50px;
+    margin-top: 10px;
+    
+}
+
+.main-div img{
+    width: 60px;
+    margin-right: 30px;
+}
+
+
+/* #footer starts */
+
+#footer{
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right,black,rgba(238, 240, 238, 0.998));
+  
+}
+
+
+.breakfastfooter{
+    margin-top: 40px;
+}
+
+.restarentname{
+    text-align: center;
+    
+    padding-top: 5px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+.footerlist{
+    width: 100%;
+    display: flex;
+}
+
+.footerfood{
+    width: 35%;
+    height: 300px;
+    /* background-color: #060045; */
+    font-size: 25px;
+    color: white;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .footerfood div{
+    
+    border-bottom: 2px solid rgb(120, 118, 118);
+} */
+
+.detais{
+    width: 55%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.detailschild1{
+    width: 40%;
+    height: 250px;
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border: 2px solid white;
+    color: white;
+   
+
+}
+
+.childone1 span{
+    /* padding-bottom: 20px; */
+    /* background-color: red; */
+    
+    border-bottom: 2px solid rgb(120, 118, 118);
+}
+
+
+.childone12 span{
+    /* padding-bottom: 20px; */
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(120, 118, 118);
+}
+
+
+/* break fast page */
+body{
+    background: linear-gradient(to left , rgba(255, 255, 0, 0.756),white);
+}
+
+.breakfast{
+    /* background-color: white; */
+    background-image: none;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+    
+    width: 100%;
+    height: auto;
+}
+
+.containers{
+    width: 98%;
+    height: 280px;
+    /* background-color: #ffffff;  */
+    /*margin-top: 5px; */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+
+.containers p{
+    width: 98%;
+    text-align: start;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.containerchilds{
+    padding: 10px;
+    width: 98%;
+    height: 270px;
+    background: linear-gradient(to right ,rgba(255, 0, 0, 0.521), pink);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+    
+}
+
+
+#breakfast span{
+    font-size: 20px;
+    
+}
+
+
+/* lunch page */
+
+/* .lunch{
+    background-color: #A4A4A4;
+} */
+
+
+.product{
+    width: 20%;
+    height: 180px;
+}
+
+
+
+
+.product img{
+    width: 240px;
+    box-shadow: 2px 2px 20px 2px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product img:hover{
+    width: 250px;
+    box-shadow: 2px 2px 20px 2px white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.text{
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    
+
+}
+
+.text .details{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.text button{
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+/* cart page */
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffefe;
+    
+}
+.cart_container{
+    background-color: rgba(214, 214, 214, 0.733);
+    width: 99%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart_title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.cart_list_imgs img{
+    width: 150px;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.cart_list_imgs img:hover{
+    box-shadow: 2px 2px 10px 2px ;
+}
+
+.cart_list_imgs{
+    width: 20%;
+    margin: 20px;
+    
+    
+}
+
+.cart_list_details{
+    width: 60%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+.cart_item_price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cart_item_price button{
+    font-size: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: red;
+    border: 2px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+.cart_item_price button:hover{
+    box-shadow: 0.5px 0.5px 10px 2px;
+}
+
+.cart_list{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.cart_list:hover{
+    box-shadow: 2px 2px 10px 5px rgb(255, 255, 255);
+}
+
+.total{
+    width: 70%;
+    background-color: white;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+
+.total button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+
+.total button:hover{
+    box-shadow: 0.5px 0.5px 10px 2px;
+}
